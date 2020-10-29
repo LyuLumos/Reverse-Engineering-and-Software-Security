@@ -37,7 +37,7 @@ for i in $(objdump -D win32-WinExec_Calc-Exit.o | grep "^ " | cut -f2); do echo 
 
 ![](img/asmdump.jpg)
 
-3. 修改shellcode功能为下载执行器，即下下载一个可执行文件，然后再运行
+3. 修改shellcode功能为下载执行器，即下载一个可执行文件，然后再运行
 ```c
 // 代码功能：修改shellcode功能为下载执行器，即下载一个可执行文件，然后再运行
 #include <urlmon.h>
@@ -68,9 +68,9 @@ int main() {
 
 ![](img/httpserver.jpg)
 
-Project1.exe功能为打开记事本, 运行是自动打开了记事本, 并且可以发现cpp文件旁边多了一个a.exe文件.
+Project1.exe功能为打开记事本, 运行时自动打开了记事本, 并且可以发现cpp文件旁边多了一个a.exe文件.
 
-![](img/dll.PNG)
+![](img/dll.JPG)
 
 ![](img/aexe.jpg)
 
@@ -141,11 +141,11 @@ CreateProcess完成了动态链接，并跳到entrypoint运行下一步。即完
 
 - notepad.exe压栈问题
 
-最开始组合成了 `空exe` `.dap` `teon`,但这样栈指针需要移位, 问过老师后改成了`exe.` `dape` `ton空`, 成功运行
+    最开始组合成了 `空exe` `.dap` `teon`,但这样栈指针需要移位, 问过老师后改成了`exe.` `dape` `ton空`, 成功运行
 
 - 关于解决编码问题
 下载执行器的代码一直报错, 发现是字符集的问题.
 
-项目-属性-高级-字符集 将Unicode改成未设置
+    项目-属性-高级-字符集 将Unicode改成未设置
 
 其他见[笔记](https://github.com/LyuLumos/Reverse-Engineering-and-Software-Security/blob/master/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B%E4%B8%8E%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%85%A8%E7%AC%94%E8%AE%B0.md)
