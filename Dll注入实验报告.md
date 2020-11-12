@@ -3,6 +3,9 @@
 ## 实验要求
 
 参考[示例代码](https://github.com/fdiskyou/injectAllTheThings)，编写一个dll文件，并能在exe中成功调用（第一步不需要实现远程线程注入）。
+## 实验代码
+
+本次实验代码删除.sdf后已上传至[dllInjection](https://github.com/LyuLumos/Reverse-Engineering-and-Software-Security/tree/master/dllInjection)
 
 ## 实验流程
 1. 下载[示例代码](https://github.com/fdiskyou/injectAllTheThings)，在原解决方案下新建myDll项目，设置其属性生成dll，新建项目Project1，用于调用dll。
@@ -87,3 +90,16 @@
     通过查看进程管理器验证。
 
     ![](img/110503.png)
+
+
+## 问题与解决
+
+- TCHAR数组无论是%s，还是%ls还是直接使用cout都无法输出。
+  
+  字符编码的问题。程序编译为 ANSI， TCHAR 就是相当于 CHAR。
+当程序编译为 UNICODE， TCHAR 就相当于 WCHAR。所以使用了ifdef判断，就可以正常输出了。
+
+## 参考
+
+- [GitHub - injectAllTheThings](https://github.com/fdiskyou/injectAllTheThings)
+- [LoadLibraryA function (libloaderapi.h)](https://docs.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya)
