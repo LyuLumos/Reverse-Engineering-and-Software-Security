@@ -9,8 +9,7 @@ DWORD demoQueueUserAPC(PCWSTR pszLibFile, DWORD dwProcessId)
 	int cb = (lstrlenW(pszLibFile) + 1) * sizeof(wchar_t);
 
 	HANDLE hProcess = OpenProcess(
-		PROCESS_VM_OPERATION |
-		PROCESS_VM_WRITE,
+		PROCESS_ALL_ACCESS,
 		FALSE, dwProcessId);
 	if (hProcess == NULL)
 	{

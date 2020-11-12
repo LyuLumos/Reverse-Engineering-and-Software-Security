@@ -15,10 +15,7 @@ DWORD demoNtCreateThreadEx(PCWSTR pszLibFile, DWORD dwProcessId)
 	DWORD dwSize = (lstrlenW(pszLibFile) + 1) * sizeof(wchar_t);
 
 	HANDLE hProcess = OpenProcess(
-		PROCESS_QUERY_INFORMATION |
-		PROCESS_CREATE_THREAD |
-		PROCESS_VM_OPERATION |
-		PROCESS_VM_WRITE,
+		PROCESS_ALL_ACCESS,
 		FALSE, dwProcessId);
 
 	if (hProcess == NULL)

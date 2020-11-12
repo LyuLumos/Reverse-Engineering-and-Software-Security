@@ -70,7 +70,7 @@ DWORD demoReflectiveDllInjection(PCWSTR cpDllFile, DWORD dwProcessId)
 
 		if (ReadFile(hFile, lpBuffer, dwLength, &dwBytesRead, NULL) == FALSE) BREAK_WITH_ERROR("[-] Failed to alloc a buffer!");
 
-		hProcess = OpenProcess(PROCESS_CREATE_THREAD | PROCESS_QUERY_INFORMATION | PROCESS_VM_OPERATION | PROCESS_VM_WRITE | PROCESS_VM_READ, FALSE, dwProcessId);
+		hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, dwProcessId);
 		if (!hProcess) BREAK_WITH_ERROR("[-] Failed to open the target process!");
 
 		hModule = LoadRemoteLibraryR(hProcess, lpBuffer, dwLength, NULL);

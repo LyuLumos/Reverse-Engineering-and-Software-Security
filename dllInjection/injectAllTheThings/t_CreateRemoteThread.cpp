@@ -10,10 +10,7 @@ DWORD demoCreateRemoteThreadW(PCWSTR pszLibFile, DWORD dwProcessId)
 
 	// Get process handle passing in the process ID
 	HANDLE hProcess = OpenProcess(
-		PROCESS_QUERY_INFORMATION |
-		PROCESS_CREATE_THREAD |
-		PROCESS_VM_OPERATION |
-		PROCESS_VM_WRITE,
+		PROCESS_ALL_ACCESS,
 		FALSE, dwProcessId);
 	if (hProcess == NULL)
 	{

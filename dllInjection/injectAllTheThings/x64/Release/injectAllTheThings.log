@@ -1,0 +1,49 @@
+﻿  auxiliary.cpp
+  main.cpp
+  t_CreateRemoteThread.cpp
+  t_NtCreateThreadEx.cpp
+  t_QueueUserAPC.cpp
+  t_ReflectiveDllInjection.cpp
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(59,38): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(59,38): message : 请考虑在格式字符串中使用“%hs”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(59,38): message : 请考虑在格式字符串中使用“%Ts”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(59,38): message : Visual C++ 使用非标准语义时会出现此警告
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(62,55): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(62,55): message : 请考虑在格式字符串中使用“%hs”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(62,55): message : 请考虑在格式字符串中使用“%Ts”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(62,55): message : Visual C++ 使用非标准语义时会出现此警告
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(69,18): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(69,18): message : 请考虑在格式字符串中使用“%hs”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(69,18): message : 请考虑在格式字符串中使用“%Ts”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(69,18): message : Visual C++ 使用非标准语义时会出现此警告
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(71,73): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(71,73): message : 请考虑在格式字符串中使用“%hs”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(71,73): message : 请考虑在格式字符串中使用“%Ts”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(71,73): message : Visual C++ 使用非标准语义时会出现此警告
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(74,18): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(74,18): message : 请考虑在格式字符串中使用“%hs”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(74,18): message : 请考虑在格式字符串中使用“%Ts”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(74,18): message : Visual C++ 使用非标准语义时会出现此警告
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(77,17): warning C4477: “wprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“const char *”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(77,17): message : 请考虑在格式字符串中使用“%hs”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(77,17): message : 请考虑在格式字符串中使用“%Ts”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_ReflectiveDllInjection.cpp(77,17): message : Visual C++ 使用非标准语义时会出现此警告
+  t_RtlCreateUserThread.cpp
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_RtlCreateUserThread.cpp(39,59): warning C4267: “初始化”: 从“size_t”转换到“DWORD”，可能丢失数据
+  t_SetWindowsHookEx.cpp
+  t_suspendInjectResume.cpp
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_suspendInjectResume.cpp(154,10): warning C4477: “wprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“DWORD64”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_suspendInjectResume.cpp(154,10): message : 请考虑在格式字符串中使用“%lld”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_suspendInjectResume.cpp(154,10): message : 请考虑在格式字符串中使用“%Id”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_suspendInjectResume.cpp(154,10): message : 请考虑在格式字符串中使用“%I64d”
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\t_suspendInjectResume.cpp(149,26): warning C4101: “oldprot”: 未引用的局部变量
+  GetProcAddressR.c
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\GetProcAddressR.c(70,25): warning C4311: “类型强制转换”: 从“LPCSTR”到“DWORD”的指针截断
+D:\GitHub\injectAllTheThings-master\injectAllTheThings\GetProcAddressR.c(75,24): warning C4311: “类型强制转换”: 从“LPCSTR”到“DWORD”的指针截断
+  LoadLibraryR.c
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 18 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  injectAllTheThings.vcxproj -> D:\GitHub\injectAllTheThings-master\x64\Release\injectAllTheThings.exe
+  已复制         1 个文件。

@@ -9,7 +9,10 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 	switch (ul_reason_for_call)
 	{
 	case DLL_PROCESS_ATTACH:
-		MessageBox(NULL, L"Process attach!", L"Inject All The Things!", 0);
+		TCHAR szInfo[MAX_PATH];
+		wsprintf(szInfo, TEXT("I'm in Process (%d) "), GetCurrentProcessId());
+
+		MessageBox(NULL, szInfo, L"2020-11-12", 0);
 		break;
 	case DLL_THREAD_ATTACH:
 		//MessageBox(NULL, L"Thread attach!", L"Inject All The Things!", 0);

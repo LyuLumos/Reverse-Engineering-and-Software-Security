@@ -1,0 +1,9 @@
+﻿  dllpoc.cpp
+D:\GitHub\injectAllTheThings-master\dllpoc\dllpoc.cpp(25,29): warning C4101: “szInfo”: 未引用的局部变量
+    正在创建库 D:\GitHub\injectAllTheThings-master\x64\Release\dllpoc.lib 和对象 D:\GitHub\injectAllTheThings-master\x64\Release\dllpoc.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  dllpoc.vcxproj -> D:\GitHub\injectAllTheThings-master\x64\Release\dllpoc.dll
+  已复制         1 个文件。
