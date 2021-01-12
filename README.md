@@ -3,8 +3,10 @@ LyuJiuyang's homework in Reverse-Engineering-and-Software-Security, 2020 Autumn.
 
 
 ## 实验报告
+- [**大作业实验报告**](https://github.com/LyuLumos/Reverse-Engineering-and-Software-Security/blob/master/%E5%A4%A7%E4%BD%9C%E4%B8%9A%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.md)
 - [Shellcode实验报告](https://github.com/LyuLumos/Reverse-Engineering-and-Software-Security/blob/master/Shellcode%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.md)
 - [Dll注入实验报告](https://github.com/LyuLumos/Reverse-Engineering-and-Software-Security/blob/master/Dll%E6%B3%A8%E5%85%A5%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.md)
+- [WinDbg](https://github.com/LyuLumos/Reverse-Engineering-and-Software-Security/blob/master/winDbg%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A.md)
 
 
 ## 笔记
